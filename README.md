@@ -1,13 +1,19 @@
 # Ctrl-Wheely
-*Optimalisatie van autodashboard-interactie door middel van een fysieke verplaatsbare knop in de middenconsole en een head-up display.* 
+*Optimization of car dashboard interaction through a physical movable button in the center console and a head-up display.* 
 
 *Projectteam: Korneel Verraes; Warre Robbe; Seppe Nijs; Bram Tops*
 
 19/01/2026
 
-## Titel 1
+## Embodiment
 
-## Pygame
+## Hardware
+
+
+## Software
+### Arduino
+
+### PyGame
 The project includes a Head-Up Display (HUD) that projects information onto the windshield, indicating which function is currently being controlled via the dial.
 
 In a previous iteration of the project, the HUD was developed using ProtoPie and connected to an Arduino. Due to the limitations of ProtoPie, all scenes are now fully implemented in Python using the PyGame library.
