@@ -20,7 +20,7 @@ As a result, the system is not a simulated “Wizard of Oz” interface, but a f
 
 The PyGame implementation was further extended with additional functionalities, including: Extra buttons, Submenus, Variable values per passenger or driver and Additional configurable interface elements
 
-The PyGame Code can be uploaded in Python. You only need to fill in the right COM-port in line ... and for use as HUD you need to remove the "#" in line ... and line ... to mirror the screen over the x-asis.
+The PyGame Code can be uploaded in Python. You only need to fill in the right COM-port in line 55 and for use as HUD you need to remove the "#" in line 1027 and line 1028 to mirror the screen over the x-asis.
 ```py
 #libraries
 import pygame
