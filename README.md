@@ -11,9 +11,9 @@ In contemporary cars, large touchscreens force drivers to take their eyes off th
 Essential information such as climate and media settings is displayed on a head-up display directly within the driver’s field of view. Through a carefully considered mechanical design, Ctrl-Wheely creates a robust physical interaction that feels faster, causes less distraction, and restores balance to the driving experience.
 
 <div style="display:flex; gap:20px;">
-  <img src="./images/Wide angle view.jpg" alt="Electrical Diagram" width="32%">
-  <img src="./images/Top view.jpg" alt="Hardware Setup Photo" width="32%">
-  <img src="./images/HUD.jpg" alt="Hardware Setup Photo" width="32%">
+  <img src="./images/Wide angle view.jpg" alt="Wide angle view" width="32%">
+  <img src="./images/Top view.jpg" alt="Top view" width="32%">
+  <img src="./images/HUD.jpg" alt="HUD" width="32%">
 </div>
 
 ## Embodiment
