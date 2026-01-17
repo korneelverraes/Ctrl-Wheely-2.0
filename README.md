@@ -33,45 +33,42 @@ All components are wired according to the electrical scheme and physical setup s
 
 The electrical diagram illustrates all power, signal, and communication connections between the Arduino, motor driver, encoder, hall effect sensors, and push buttons. The photograph shows the components cables.
 
+| **Component** | **Connection** |
+|------------------------|----------------|
 | **Motor driver** | **Arduino UNO** |
-|------------------|-----------------|
 | EN (purple) | D8 |
 | IN3 (blue) | D5 |
 | IN2 (green) | D6 |
 | IN1 (yellow) | D9 |
 | GND (black) | GND |
-
+| | |
 | **Magnetic encoder** | **Arduino UNO** |
-|----------------------|-----------------|
 | GND (white) | GND |
 | VDD (red) | +5V |
 | MISO (green) | D12 |
 | MOSI (yellow) | D11 |
 | SCL (purple) | D13 |
 | CS (black) | D10 |
-
+| | |
 | **Hall effect sensors** | **Arduino UNO** |
-|-------------------------|-----------------|
 | VCC | +3.3V |
 | GND | GND |
 | OUT x 5 | A0 - A4 |
-
+| | |
 | **Push button (press)** | **Arduino UNO** |
-|-------------------------|-----------------|
 | OUT (brown) | D2 |
 | GND (yellow-green) | GND |
-
+| | |
 | **Push button (left / right)** | **Arduino UNO** |
-|--------------------------------|-----------------|
 | OUT left (green) | D3 |
 | OUT right (pink) | D4 |
 | GND (yellow-green) | GND |
-
+| | |
 | **Motor phase cables** | **Motor driver** |
-|------------------------|------------------|
 | A (black) | M1 |
 | B (black) | M2 |
 | C (black) | M3 |
+
 
 
 ## Software
