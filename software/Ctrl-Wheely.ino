@@ -44,7 +44,7 @@ void setup() {
   sensor.init();
 
   driver.pwm_frequency = 20000;
-  driver.voltage_power_supply = 11,2; //auto seppe: 15,2V; stekker K @7,5V: 11,2V
+  driver.voltage_power_supply = 11,2;
   driver.voltage_limit = 5;
   driver.init();
 
