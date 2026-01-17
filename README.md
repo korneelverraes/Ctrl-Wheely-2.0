@@ -1,12 +1,20 @@
 # Ctrl-Wheely
-*Optimization of car dashboard interaction through a physical movable button in the center console and a head-up display.* 
+*An innovative interface that elevates safety in modern vehicles to a higher level.* 
 
 *Projectteam: Korneel Verraes; Warre Robbe; Seppe Nijs; Bram Tops*
 
 19/01/2026
 
 ## Introduction
-Beetje uitleg over wat ctrl wheely is en waarom
+In contemporary cars, large touchscreens force drivers to take their eyes off the road, even for simple actions. This conflicts with the need for focus and safety while driving. Ctrl-Wheely originates from this tension and rethinks vehicle control in a more natural way. The system combines a modular rotary controller with targeted haptic feedback, allowing functions to feel intuitive and to be operated by touch rather than sight.
+
+Essential information such as climate and media settings is displayed on a head-up display directly within the driver’s field of view. Through a carefully considered mechanical design, Ctrl-Wheely creates a robust physical interaction that feels faster, causes less distraction, and restores balance to the driving experience.
+
+<div style="display:flex; gap:20px;">
+  <img src="./images/Wide angle view.jpg" alt="Electrical Diagram" width="32%">
+  <img src="./images/Top view.jpg" alt="Hardware Setup Photo" width="32%">
+  <img src="./images/HUD.jpg" alt="Hardware Setup Photo" width="32%">
+</div>
 
 ## Embodiment
 verwijzing + uitleg CAD files
