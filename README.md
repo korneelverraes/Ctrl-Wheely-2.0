@@ -74,6 +74,19 @@ The electrical diagram illustrates all power, signal, and communication connecti
 ## Software
 ### Arduino
 
+The Arduino controls all hardware inputs and outputs of the Ctrl-Wheely system. The complete Arduino implementation can be found in `Ctrl-Wheely.ino`.
+
+The software makes use of the **SimpleFOC** library to control the gimbal motor and to provide haptic feedback based on the active function and user interaction.
+
+Before running the main Arduino code, the correct physical positions of the hall effect sensors must be determined. This is done using the calibration sketch `Magnet_pos_test.ino`. This sketch allows you to read and verify the sensor outputs while moving the magnet position.
+
+The motor driver voltage must be set according to the external power supply used in the setup. Make sure to update the voltage value in the Arduino code to match your power supply.
+
+```cpp
+driver.voltage_power_supply = 11,2;
+```
+
+
 ### PyGame
 The project includes a Head-Up Display (HUD) that projects information onto the windshield, indicating which function is currently being controlled via the dial.
 
