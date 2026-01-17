@@ -6,7 +6,7 @@
 19/01/2026
 
 ## Introduction
-In contemporary cars, large touchscreens force drivers to take their eyes off the road, even for simple actions. This conflicts with the need for focus and safety while driving. Ctrl-Wheely originates from this tension and rethinks vehicle control in a more natural way. The system combines a modular rotary controller with targeted haptic feedback, allowing functions to feel intuitive and to be operated by touch rather than sight.
+In contemporary cars, large touchscreens force drivers to take their eyes off the road, even for simple actions. This conflicts with the need for focus and safety while driving. Ctrl-Wheely originates from this tension and rethinks vehicle control more naturally. The system combines a modular rotary controller with targeted haptic feedback, allowing functions to feel intuitive and to be operated by touch rather than sight.
 
 Essential information such as climate and media settings is displayed on a head-up display directly within the driver’s field of view. Through a carefully considered mechanical design, Ctrl-Wheely creates a robust physical interaction that feels faster, causes less distraction, and restores balance to the driving experience.
 
@@ -17,9 +17,23 @@ Essential information such as climate and media settings is displayed on a head-
 </div>
 
 ## Embodiment
-verwijzing + uitleg CAD files
+The product  consists almost completely of 3D printed parts and electronics. Within the product architecture, there are two main assemblies, namely the dial and an XY gantry. The dial serves four functions: a left-click and a right-click, as well as a short press and a long press. The design serves an ergonomic and intuïtive purpose, namely swift and natural interaction. 3D printers have inspired the gantry itself and uses a central hub on which the dial is mounted, which sits on two axes. To prevent anything from slipping into the assembly, a dual cover system has been implemented.
 
-uitleg over prototype
+All of the necessary files that have to be printed to recreate this project have been included in the map named "CAD-Files" and are available as a step file, which holds the entire assembly.
+The covers must be printed in TPU: the softer the better, as this improves flexibility.
+All other parts can be printed in PETG for moderate climates and ASA for hotter environments.
+In addition, the next few parts are required for a functional replica:
+
+8x M3x8
+4x M3x18
+16x M2.5x20
+4x M2.5x2.5
+8x M2x6
+
+2x smooth steel rod d6x217.5mm
+2x smooth steel rod d8x190mm
+2x LM8UU linear ball bearing
+2x LM6UU linear ball bearing
 
 ## Hardware
 
