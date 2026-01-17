@@ -9,6 +9,70 @@
 
 ## Hardware
 
+The Ctrl-Wheely hardware consists of a custom-built physical control dial connected to an Arduino-based control system. The dial provides rotational input, directional movement, button presses and haptic feedback through a motor with encoder. The small buttons are soldered on a circular prototyping board.
+
+All components are wired according to the electrical scheme and physical setup shown below.
+
+### Components
+
+- 1 x Arduino Uno  
+- 1 x iPower GM3506 Gimbal Motor with Encoder  
+- 1 x SimpleFOC Mini motor driver  
+- 5 x DRV5053 Analog-Bipolar Hall Effect Sensors  
+- 2 x Small push button (6 mm)  
+- 1 x Large push button (12 mm)  
+- 1 x DC power supply (8-30 V)  
+- 1 x Circular prototyping board (diameter 43 mm)  
+
+### Electrical Diagram and Hardware Setup
+
+<div style="display:flex; gap:20px;">
+  <img src="./images/electrical-diagram.png" alt="Electrical Diagram" width="48%">
+  <img src="./images/hardware-photo.png" alt="Hardware Setup Photo" width="48%">
+</div>
+
+The electrical diagram illustrates all power, signal, and communication connections between the Arduino, motor driver, encoder, hall effect sensors, and push buttons. The photograph shows the components cables.
+
+| **Motor driver** | **Arduino UNO** |
+|------------------|-----------------|
+| EN (purple) | D8 |
+| IN3 (blue) | D5 |
+| IN2 (green) | D6 |
+| IN1 (yellow) | D9 |
+| GND (black) | GND |
+
+| **Magnetic encoder** | **Arduino UNO** |
+|----------------------|-----------------|
+| GND (white) | GND |
+| VDD (red) | +5V |
+| MISO (green) | D12 |
+| MOSI (yellow) | D11 |
+| SCL (purple) | D13 |
+| CS (black) | D10 |
+
+| **Hall effect sensors** | **Arduino UNO** |
+|-------------------------|-----------------|
+| VCC | +3.3V |
+| GND | GND |
+| OUT x 5 | A0 - A4 |
+
+| **Push button (press)** | **Arduino UNO** |
+|-------------------------|-----------------|
+| OUT (brown) | D2 |
+| GND (yellow-green) | GND |
+
+| **Push button (left / right)** | **Arduino UNO** |
+|--------------------------------|-----------------|
+| OUT left (green) | D3 |
+| OUT right (pink) | D4 |
+| GND (yellow-green) | GND |
+
+| **Motor phase cables** | **Motor driver** |
+|------------------------|------------------|
+| A (black) | M1 |
+| B (black) | M2 |
+| C (black) | M3 |
+
 
 ## Software
 ### Arduino
