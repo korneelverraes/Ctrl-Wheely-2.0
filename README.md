@@ -28,7 +28,7 @@ All components are wired according to the electrical scheme and physical setup s
 
 <div style="display:flex; gap:20px;">
   <img src="./images/electrical-diagram.jpg" alt="Electrical Diagram" width="47%">
-  <img src="./images/hardware-photo.jpg" alt="Hardware Setup Photo" width="49%">
+  <img src="./images/components-cables.jpg" alt="Hardware Setup Photo" width="49%">
 </div>
 
 The electrical diagram illustrates all power, signal, and communication connections between the Arduino, motor driver, encoder, hall effect sensors, and push buttons. The photograph shows the components cables.
