@@ -24,15 +24,15 @@ The covers must be printed in TPU: the softer the better, as this improves flexi
 All other parts can be printed in PETG for moderate climates and ASA for hotter environments.
 In addition, the next few parts are required for a functional replica:
 
-8x M3x8
-4x M3x18
-16x M2.5x20
-4x M2.5x2.5
+8x M3x8; 
+4x M3x18; 
+16x M2.5x20; 
+4x M2.5x2.5; 
 8x M2x6
 
-2x smooth steel rod d6x217.5mm
-2x smooth steel rod d8x190mm
-2x LM8UU linear ball bearing
+2x smooth steel rod d6x217.5mm; 
+2x smooth steel rod d8x190mm; 
+2x LM8UU linear ball bearing; 
 2x LM6UU linear ball bearing
 
 ## Hardware
