@@ -87,7 +87,8 @@ As a result, the system is not a simulated “Wizard of Oz” interface, but a f
 
 The PyGame implementation was further extended with additional functionalities, including: Extra buttons, Submenus, Variable values per passenger or driver and Additional configurable interface elements
 
-The full PyGame implementation of the HUD can be found in `UI_HUD_pygame.py`.  
+The full PyGame implementation of the HUD can be found in `UI_HUD_pygame.py`. 
+
 Make sure to set the correct COM port on **line 55**.
 
 ```py
