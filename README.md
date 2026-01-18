@@ -17,29 +17,39 @@ Essential information such as climate and media settings is displayed on a head-
 </div>
 
 ## Embodiment
-The product  consists almost completely of 3D printed parts and electronics. Within the product architecture, there are two main assemblies, namely the dial and an XY gantry. The dial serves four functions: a left-click and a right-click, as well as a short press and a long press. The design serves an ergonomic and intuïtive purpose, namely swift and natural interaction. 3D printers have inspired the gantry itself and uses a central hub on which the dial is mounted, which sits on two axes. To prevent anything from slipping into the assembly, a dual cover system has been implemented.
 
-All of the necessary files that have to be printed to recreate this project have been included in the map named "CAD-Files" and are available as a step file, which holds the entire assembly.
-The covers must be printed in TPU: the softer the better, as this improves flexibility.
-All other parts can be printed in PETG for moderate climates and ASA for hotter environments.
-In addition, the next few parts are required for a functional replica:
+The product architecture consists of two main assemblies. All design files are located in the `CAD-Files` folder. Use `ASSY_V6.prt` or `ASSY_V6.stp` for the full assembly of the entire system, while `ASSY V5.prt` contains the standalone dial assembly.
 
-8x M3x8; 
-4x M3x18; 
-16x M2.5x20; 
-4x M2.5x2.5; 
-8x M2x6
+**The dial** serves as a smart rotary knob inspired by [Scott Bezz's SmartKnob project](https://github.com/scottbez1/smartknob). Its primary functions include rotation with programmable haptic feedback, a central short or long press, and dedicated left and right clicking actions. The design is focused on ergonomic and intuitive use.
 
-2x smooth steel rod d6x217.5mm; 
-2x smooth steel rod d8x190mm; 
-2x LM8UU linear ball bearing; 
-2x LM6UU linear ball bearing
+**The gantry system** is inspired by 3D printer mechanics and utilizes a central hub on which the dial is mounted, supported by two axes. This allows the controller to move physically within the console to navigate different menus or settings. To protect the internal mechanism from dust or debris, a dual cover system has been implemented. These covers must be printed in TPU (the softer the better for flexibility), while all other structural parts can be printed in PETG or ASA for better heat resistance in automotive environments.
+
+### Bill of Materials (BOM)
+#### Mechanical components:
+- 2 x Smooth steel rod (Ø6 x 217.5mm)
+- 2 x Smooth steel rod (Ø8 x 190mm)
+- 2 x LM8UU linear ball bearing
+- 2 x LM6UU linear ball bearing
+- 5 x Connecting screws & sleeves (for snapping positions)
+- 1 x Neodymium magnet (Ø6 x 16mm)
+
+#### Fasteners (dial):
+- 2 x M3 x 8
+- 4 x M2.5 x 16
+- 4 x M2.5 x 6
+- 4 x M2.5 x 10 (included in the motor kit)
+
+#### Fasteners (gantry):
+- 4 x M3 x 16
+- 2 x M3 x 8
+- 4 x M3 x 10
+- 4 x M2 x 6
+
+The prototype has been specifically engineered to fit the interior geometry of an **Audi Q4 e-tron**.
 
 ## Hardware
 
-The Ctrl-Wheely hardware consists of a custom-built physical control dial connected to an Arduino-based control system. The dial provides rotational input, directional movement, button presses and haptic feedback through a motor with encoder. The small buttons are soldered on a circular prototyping board.
-
-All components are wired according to the electrical scheme and physical setup shown below.
+The system uses an Arduino Uno to bridge the gap between physical movement and digital feedback. All components are wired according to the electrical scheme and physical setup shown below.
 
 ### Components
 
@@ -58,8 +68,6 @@ All components are wired according to the electrical scheme and physical setup s
   <img src="./images/electrical-diagram.jpg" alt="Electrical Diagram" width="47%">
   <img src="./images/components-cables.jpg" alt="Hardware Setup Photo" width="49%">
 </div>
-
-The electrical diagram illustrates all power, signal, and communication connections between the Arduino, motor driver, encoder, hall effect sensors, and push buttons. The photograph shows the components cables.
 
 | **Component** | **Connection** |
 |------------------------|----------------|
