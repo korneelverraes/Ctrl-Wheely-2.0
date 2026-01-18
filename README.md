@@ -38,6 +38,8 @@ The product architecture consists of two main assemblies. All design files are l
 - 2 x LM6UU linear ball bearing
 - 5 x Connecting screws & sleeves (for snapping positions)
 - 1 x Neodymium magnet (Ø6 x 16mm)
+- 6 x Threaded rod (Ø3 x 205mm)
+- 4 x Threaded rod (Ø1 x 205mm)
 
 #### Fasteners (dial):
 - 2 x M3 x 8
