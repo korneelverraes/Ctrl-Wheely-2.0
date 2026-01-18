@@ -154,13 +154,13 @@ For HUD usage, uncomment **lines 1027 and 1028** to mirror the screen over the x
 ```
 
 <div style="display:flex; gap:20px;">
-  <img src="./images/HUD/HUD_climateLeft.jpg" alt="Climate Left" width="49.9%">
-  <img src="./images/HUD/HUD_climateRight.jpg" alt="climate Right" width="49.9%">
+  <img src="./images/HUD/HUD_climateLeft.png" alt="Climate Left" width="49.9%">
+  <img src="./images/HUD/HUD_climateRight.png" alt="climate Right" width="49.9%">
 </div>
 
 <div style="display:flex; gap:20px;">
-  <img src="./images/HUD/HUD_navigation.jpg" alt="Climate Left" width="33.2%">
-  <img src="./images/HUD/HUD_phone.jpg" alt="climate Right" width="33.2%">
-  <img src="./images/HUD/HUD_music.jpg" alt="Dial connection" width="32.2%">
+  <img src="./images/HUD/HUD_navigation.png" alt="Climate Left" width="33.2%">
+  <img src="./images/HUD/HUD_phone.png" alt="climate Right" width="33.2%">
+  <img src="./images/HUD/HUD_music.png" alt="Dial connection" width="32.2%">
 </div>
 
