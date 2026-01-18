@@ -69,6 +69,8 @@ The system uses an Arduino Uno to bridge the gap between physical movement and d
   <img src="./images/components-cables.jpg" alt="Hardware Setup Photo" width="49%">
 </div>
 
+ 
+
 | **Component** | **Connection** |
 |------------------------|----------------|
 | **Motor driver** | **Arduino UNO** |
