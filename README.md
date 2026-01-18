@@ -24,6 +24,12 @@ The product architecture consists of two main assemblies. All design files are l
 
 **The gantry system** is inspired by 3D printer mechanics and utilizes a central hub on which the dial is mounted, supported by two axes. This allows the controller to move physically within the console to navigate different menus or settings. To protect the internal mechanism from dust or debris, a dual cover system has been implemented. These covers must be printed in TPU (the softer the better for flexibility), while all other structural parts can be printed in PETG or ASA for better heat resistance in automotive environments.
 
+<div style="display:flex; gap:20px;">
+  <img src="./images/prototype.jpg" alt="Prototype" width="38.2%">
+  <img src="./images/dial assembly.jpg" alt="Dial assembly" width="21.5%">
+  <img src="./images/dial connection.jpg" alt="Dial connection" width="38.2%">
+</div>
+
 ### Bill of Materials (BOM)
 #### Mechanical components:
 - 2 x Smooth steel rod (Ø6 x 217.5mm)
