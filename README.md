@@ -146,12 +146,21 @@ Make sure to set the correct COM port on **line 55**.
 ser = serial.Serial('COM5', 115200, timeout=0)
 ```
 
-For HUD usage, uncomment **lines 1027 and 1028** to mirror the screen over the x-axis.
+For HUD usage, uncomment **lines 1027 and 1028** to mirror the screen over the x-axis. In this project Superdesk was used to project the HUD on a phone or tablet for projecting the HUD in the window of a car.
 
 ```py
 #canvas = pygame.transform.flip(screen, False, True)
 #screen.blit(canvas, (0,0))
 ```
 
+<div style="display:flex; gap:20px;">
+  <img src="./images/HUD_climateLeft.jpg" alt="Climate Left" width="49.9%">
+  <img src="./images/HUD_climateRight.jpg" alt="climate Right" width="49.9%">
+</div>
 
+div style="display:flex; gap:20px;">
+  <img src="./images/HUD_navigation.jpg" alt="Climate Left" width="33.2%">
+  <img src="./images/HUD_phone.jpg" alt="climate Right" width="33.2%">
+  <img src="./images/HUD_music.jpg" alt="Dial connection" width="32.2%">
+</div>
 
