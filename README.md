@@ -112,9 +112,7 @@ The system uses an Arduino Uno to bridge the gap between physical movement and d
 ## Software
 ### Arduino
 
-The Arduino controls all hardware inputs and outputs of the Ctrl-Wheely system. The complete Arduino implementation can be found in `Ctrl-Wheely.ino`.
-
-The software makes use of the **SimpleFOC** library to control the gimbal motor and to provide haptic feedback based on the active function and user interaction.
+The Arduino serves as the core controller, managing all hardware interactions and real-time feedback loops. The complete implementation, found in `Ctrl-Wheely.ino`, leverages the [SimpleFOC library](https://simplefoc.com/) to drive the gimbal motor. This allows for high-precision haptic feedback that changes dynamically based on the active function and user input.
 
 Before running the main Arduino code, the correct physical positions of the hall effect sensors must be determined. This is done using the calibration sketch `Magnet_pos_test.ino`. This sketch allows you to read and verify the sensor outputs while moving the magnet position.
 
@@ -126,17 +124,11 @@ driver.voltage_power_supply = 11,2;
 
 
 ### PyGame
-The project includes a Head-Up Display (HUD) that projects information onto the windshield, indicating which function is currently being controlled via the dial.
+The project includes a Head-Up Display (HUD) that projects information onto the windshield, indicating which function is currently being controlled via the dial. In a previous iteration of the project, the HUD was developed using ProtoPie and connected to an Arduino. Due to the limitations of ProtoPie, all scenes are now fully implemented in Python using the PyGame library.
 
-In a previous iteration of the project, the HUD was developed using ProtoPie and connected to an Arduino. Due to the limitations of ProtoPie, all scenes are now fully implemented in Python using the PyGame library.
+The user interface that was designed and tested within the course User-Centered Design has been recreated almost one-to-one in PyGame. This approach ensures that the validated and positively received UX is preserved in the final implementation. The system is not a simulated “Wizard of Oz” interface, but a fully functional and directly responsive HUD that accurately reflects the user’s interactions with the dial.
 
-The user interface that was designed and tested within the course User-Centered Design has been recreated almost one-to-one in PyGame. This approach ensures that the validated and positively received UX is preserved in the final implementation.
-
-Within PyGame, it is possible to receive serial data directly from the Arduino, to which the dial is connected. This incoming serial input is used to dynamically update elements of the HUD in real time.
-
-As a result, the system is not a simulated “Wizard of Oz” interface, but a fully functional and directly responsive HUD that accurately reflects the user’s interactions with the dial.
-
-The PyGame implementation was further extended with additional functionalities, including: Extra buttons, Submenus, Variable values per passenger or driver and Additional configurable interface elements
+Within PyGame, it is possible to receive serial data directly from the Arduino, to which the dial is connected. This incoming serial input is used to dynamically update elements of the HUD in real time. The PyGame implementation was further extended with additional functionalities, including: Extra buttons, Submenus, Variable values per passenger or driver and Additional configurable interface elements
 
 The full PyGame implementation of the HUD can be found in `UI_HUD_pygame.py`. 
 
